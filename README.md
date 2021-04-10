@@ -65,17 +65,3 @@ The main.py file -> get all data. You should run in terminal: `python3 main.py` 
 `header("Access-Control-Allow-Origin: https://domain.com");`
 to **wp-admin/admin-ajax.php**  
 
-Forder Structure:  
-htdocswp  
-****wp-content  
-********themes  
-************wpshowdata  
-****wp-admin  
-********admin-ajax.php  
-htdocsci  
-****app  
-********Data  
-****public  
-********wp-content  
-
-

@@ -1,0 +1,229 @@
+├── CodeIgniterFolder (htdocsci)
+│   ├── app
+│   │   ├── Config
+│   │   │   └── Routes.php
+│   │   ├── Controllers
+│   │   │   ├── BaseController.php
+│   │   │   ├── Blog.php
+│   │   │   └── Home.php
+│   │   ├── Data
+│   │   │   ├── clearcache.py
+│   │   │   ├── data_json
+│   │   │   ├── data_json.tar.gz
+│   │   │   ├── data_link
+│   │   │   ├── ENV
+│   │   │   ├── func
+│   │   │   │   ├── get_env.py
+│   │   │   │   ├── get_partial_web_content.py
+│   │   │   │   ├── import_lib.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── general_func.cpython-38.pyc
+│   │   │   │   │   ├── get_env.cpython-36.pyc
+│   │   │   │   │   ├── get_env.cpython-38.pyc
+│   │   │   │   │   ├── get_partial_web_content.cpython-36.pyc
+│   │   │   │   │   ├── get_partial_web_content.cpython-38.pyc
+│   │   │   │   │   ├── import_lib.cpython-36.pyc
+│   │   │   │   │   ├── import_lib.cpython-38.pyc
+│   │   │   │   │   ├── sanitize_content.cpython-36.pyc
+│   │   │   │   │   ├── sanitize_content.cpython-38.pyc
+│   │   │   │   │   ├── save_data_web.cpython-36.pyc
+│   │   │   │   │   ├── save_data_web.cpython-38.pyc
+│   │   │   │   │   ├── save_get_data.cpython-36.pyc
+│   │   │   │   │   └── save_get_data.cpython-38.pyc
+│   │   │   │   ├── sanitize_content.py
+│   │   │   │   ├── save_data_web.py
+│   │   │   │   └── save_get_data.py
+│   │   │   ├── func2
+│   │   │   │   ├── get_env.py
+│   │   │   │   ├── get_partial_web_content.py
+│   │   │   │   ├── import_lib.py
+│   │   │   │   ├── sanitize_content.py
+│   │   │   │   ├── save_data_web.py
+│   │   │   │   └── save_get_data.py
+│   │   │   ├── main2.py
+│   │   │   ├── main.py
+│   │   │   ├── search.py
+│   │   │   ├── shop.py
+│   │   │   ├── test.py
+│   │   │   ├── test.txt
+│   │   │   └── t.py
+│   │   ├── Helpers
+│   │   │   ├── func_helper.php
+│   │   │   └── sanitize_helper.php
+│   │   └── Views
+│   │       ├── 404.php
+│   │       ├── category.php
+│   │       ├── cua_hang.php
+│   │       ├── errors
+│   │       │   ├── cli
+│   │       │   │   ├── error_404.php
+│   │       │   │   ├── error_exception.php
+│   │       │   │   └── production.php
+│   │       │   └── html
+│   │       │       ├── debug.css
+│   │       │       ├── debug.js
+│   │       │       ├── error_404.php
+│   │       │       ├── error_exception.php
+│   │       │       └── production.php
+│   │       ├── homepage.php
+│   │       ├── layout.php
+│   │       ├── product_att.php
+│   │       ├── product_category.php
+│   │       ├── search.php
+│   │       ├── single_page.php
+│   │       ├── single_post.php
+│   │       ├── single_product - Copy.php
+│   │       ├── single_product.php
+│   │       └── template-parts
+│   │           ├── footer.php
+│   │           ├── header.php
+│   │           └── page-header.php
+│   └── public
+│       └── assets
+│           ├── css
+│           │   ├── plugins.min.css
+│           │   ├── style.min.css
+│           │   └── vendor.min.css
+│           ├── fonts
+│           │   ├── fontAwesome
+│           │   │   ├── fontawesome-webfont3e6e.eot
+│           │   │   ├── fontawesome-webfont3e6e.svg
+│           │   │   ├── fontawesome-webfont3e6e.ttf
+│           │   │   ├── fontawesome-webfont3e6e.woff
+│           │   │   ├── fontawesome-webfont3e6e.woff2
+│           │   │   └── fontawesome-webfontd41d.eot
+│           │   ├── lightgallery
+│           │   │   ├── lg.svg
+│           │   │   ├── lg.ttf
+│           │   │   └── lg.woff
+│           │   └── pe-icon-7-stroke
+│           │       ├── Pe-icon-7-strokebb1d.eot
+│           │       ├── Pe-icon-7-strokebb1d.svg
+│           │       ├── Pe-icon-7-strokebb1d.ttf
+│           │       ├── Pe-icon-7-strokebb1d.woff
+│           │       └── Pe-icon-7-stroked41d.eot
+│           ├── images
+│           │   ├── about
+│           │   │   ├── 1.jpg
+│           │   │   └── 2.jpg
+│           │   ├── banner
+│           │   │   ├── banner-1.jpg
+│           │   │   ├── banner-2.jpg
+│           │   │   ├── banner-3.jpg
+│           │   │   ├── banner-4.jpg
+│           │   │   ├── banner-5.jpg
+│           │   │   ├── big-banner.jpg
+│           │   │   ├── da-quy.jpg
+│           │   │   ├── mat-da-phong-thuy.jpg
+│           │   │   ├── vat-pham-phong-thuy.jpg
+│           │   │   ├── vong-tay-1.jpg
+│           │   │   ├── vong-tay.jpg
+│           │   │   └── vong-tay-phong-thuy.jpg
+│           │   ├── blog
+│           │   │   ├── blog-details
+│           │   │   │   ├── 1.jpg
+│           │   │   │   ├── 2.jpg
+│           │   │   │   └── 3.jpg
+│           │   │   ├── blog-post
+│           │   │   │   ├── 1.jpg
+│           │   │   │   ├── 2.jpg
+│           │   │   │   ├── 3.jpg
+│           │   │   │   ├── 4.jpg
+│           │   │   │   ├── 5.jpg
+│           │   │   │   ├── 6.jpg
+│           │   │   │   ├── 7.jpg
+│           │   │   │   ├── 8.jpg
+│           │   │   │   └── 9.jpg
+│           │   │   └── thumb
+│           │   │       ├── 1.jpg
+│           │   │       ├── 2.jpg
+│           │   │       ├── 3.jpg
+│           │   │       └── 4.jpg
+│           │   ├── brand-logo
+│           │   │   ├── 1.png
+│           │   │   ├── 2.png
+│           │   │   ├── 3.png
+│           │   │   ├── 4.png
+│           │   │   └── 5.png
+│           │   ├── favicon_daquyanan.png
+│           │   ├── favicon.ico
+│           │   ├── fbmess.svg
+│           │   ├── fb.png
+│           │   ├── hotline
+│           │   │   ├── fb.png
+│           │   │   ├── icon.png
+│           │   │   └── zalo.png
+│           │   ├── icons
+│           │   │   ├── feature-icon-1.png
+│           │   │   ├── feature-icon-2.png
+│           │   │   ├── feature-icon-3.png
+│           │   │   ├── feature-icon-4.png
+│           │   │   └── fullscreen.png
+│           │   ├── lightgallery
+│           │   │   ├── loading.gif
+│           │   │   ├── vimeo-play.png
+│           │   │   └── youtube-play.png
+│           │   ├── loading.gif
+│           │   ├── logo
+│           │   │   └── Logo-AnAn.png
+│           │   ├── products
+│           │   │   ├── large-size
+│           │   │   │   ├── 1.jpg
+│           │   │   │   ├── 2.jpg
+│           │   │   │   ├── 3.jpg
+│           │   │   │   ├── 4.jpg
+│           │   │   │   ├── 5.jpg
+│           │   │   │   └── 6.jpg
+│           │   │   ├── medium-size
+│           │   │   │   ├── 10.jpg
+│           │   │   │   ├── 11.jpg
+│           │   │   │   ├── 1.jpg
+│           │   │   │   ├── 2.jpg
+│           │   │   │   ├── 3.jpg
+│           │   │   │   ├── 4.jpg
+│           │   │   │   ├── 5.jpg
+│           │   │   │   ├── 6.jpg
+│           │   │   │   ├── 7.jpg
+│           │   │   │   ├── 8.jpg
+│           │   │   │   └── 9.jpg
+│           │   │   └── small-product
+│           │   │       ├── 10.jpg
+│           │   │       ├── 11.jpg
+│           │   │       ├── 1.jpg
+│           │   │       ├── 2.jpg
+│           │   │       ├── 3.jpg
+│           │   │       ├── 4.jpg
+│           │   │       ├── 5.jpg
+│           │   │       ├── 6.jpg
+│           │   │       ├── 7.jpg
+│           │   │       └── 9.jpg
+│           │   ├── review
+│           │   │   └── 1.jpg
+│           │   └── slider
+│           │       ├── slide-1-2.jpg
+│           │       ├── slide-1.jpg
+│           │       ├── slide-2-2.jpg
+│           │       ├── slide-2.jpg
+│           │       ├── slider_daquyanan_2.jpg
+│           │       └── slider_daquyanan.jpg
+│           └── js
+│               ├── jquery.lazy.min.js
+│               ├── jquery.lazy.plugins.min.js
+│               ├── main.js
+│               ├── plugins.min.js
+│               ├── shuffle.min.js
+│               └── vendor.min.js
+├── LICENSE
+├── README.md
+└── Wordpress_theme_folder (htdocswp/wp-content/themes/)
+    └── wpshowdata
+        ├── archive.php
+        ├── functions.php
+        ├── index.php
+        ├── page.php
+        ├── single.php
+        ├── single-product.php
+        ├── style.css
+        └── woocommerce
+            └── archive-product.php
+
