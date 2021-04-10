@@ -1,0 +1,13 @@
+WPDOMAIN=wp.daquyanan.com
+DOMAIN=daquyanan.com
+PASS=yourpasswordhere
+POSTCAT_LINKALL=https://wp.daquyanan.com/?category_list=all_link
+PRODUCTCAT_LINKALL=https://wp.daquyanan.com/?product_category_list=all_link
+POST_LINKALL=https://wp.daquyanan.com/?post_list=all_link
+PRODUCT_LINKALL=https://wp.daquyanan.com/?product_list=all_link
+PAGE_LINKALL=https://wp.daquyanan.com/?page_list=all_link
+PRODUCTATT_LINKALL=https://wp.daquyanan.com/?product_attrs_list=all_link
+MENU_LINKALL=https://wp.daquyanan.com/?menu_list=all_link
+ROUTE_LINKALL=https://wp.daquyanan.com/?route_list=all_link
+SEARCH_LINKALL=https://wp.daquyanan.com/?search_list=all_link
+SHOP_LINKALL=https://wp.daquyanan.com/?shop_list=all_link
